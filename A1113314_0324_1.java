@@ -11,7 +11,6 @@ class animal {
         System.out.println("身高：" + this.height);
         System.out.println("體重：" + this.weight);
         System.out.println("速度：" + this.speed);
-        System.out.println();
     }
     double distance(double x, double y) {
         return x * y * this.speed;
